@@ -1,0 +1,4 @@
+interface:
+  display_name: "邮票挖空 Zine"
+  short_description: "将照片制成邮票挖空拼贴，自动配短诗、细线稿与暖象牙纸张排版"
+  default_prompt: "使用 $photo-cutout-zine 将我上传的照片直接制作成邮票挖空 Zine 成品。"
