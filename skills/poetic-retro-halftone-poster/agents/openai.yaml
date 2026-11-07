@@ -1,0 +1,4 @@
+interface:
+  display_name: "诗意复古半调海报"
+  short_description: "把真实照片制成3:4诗意复古印刷海报，主体穿字、CMYK网点与原照缩略图"
+  default_prompt: "使用 $poetic-retro-halftone-poster 将我上传的照片制作成一张3:4竖版诗意复古印刷海报，只输出一张完整成品。"
