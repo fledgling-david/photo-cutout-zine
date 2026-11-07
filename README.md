@@ -71,3 +71,16 @@ python -m unittest discover -s tests -v
 维护者：[@fledgling-david](https://github.com/fledgling-david)。原始视觉玩法的来源是用户提供、文件名标注为小红书 **@梅闻话** 的三页提示词资料。此仓库将其整理为可执行技能，并增加了宿主能力分流、日期规则、确定性拼合、校验与失败边界。详见 [CREDITS.md](CREDITS.md)。
 
 本仓库的原创实现和新编写的说明以 [MIT License](LICENSE) 发布。原始 PDF、第三方图片、字体及其权利未包含在 MIT 授权中，也没有随仓库上传。使用者处理的照片及生成图片仍受其各自来源和宿主条款约束。
+
+
+## Additional skill: Poetic Retro Halftone Poster
+
+A second, independent skill is available at [skills/poetic-retro-halftone-poster/SKILL.md](skills/poetic-retro-halftone-poster/SKILL.md). It creates one 3:4 poetic retro editorial poster from a user photo, with a subject crossing oversized serif typography, CMYK halftone dots, and an ORIGINAL thumbnail.
+
+Install only this skill:
+
+```bash
+npx skills add fledgling-david/photo-cutout-zine --skill poetic-retro-halftone-poster
+```
+
+The optional exact original-thumbnail overlay uses Python and Pillow; see the skill's reference and script. The skill has not yet been validated across image-generation models.
